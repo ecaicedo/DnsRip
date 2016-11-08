@@ -1,18 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsRip", "DnsRip\DnsRip.csproj", "{4B3A5A1C-122D-46F6-83A5-567F13E42FAD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsRip.Tests", "DnsRip.Tests\DnsRip.Tests.csproj", "{D5E1C38B-8002-425D-9CF9-D5930558156C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{F769C151-B58F-4082-A63B-E00E073E6976}"
 	ProjectSection(SolutionItems) = preProject
 		nuget\256.png = nuget\256.png
 		DnsRip\DnsRip.nuspec = DnsRip\DnsRip.nuspec
+		global.json = global.json
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnsRip", "src\DnsRip\DnsRip.xproj", "{AD7249CF-1CD6-4856-B502-158EA6CBE1F0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DnsRip.Tests", "test\DnsRip.Tests\DnsRip.Tests.xproj", "{95A03C7E-5EB6-4ED0-B45B-F8D775580B9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,14 +21,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4B3A5A1C-122D-46F6-83A5-567F13E42FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B3A5A1C-122D-46F6-83A5-567F13E42FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B3A5A1C-122D-46F6-83A5-567F13E42FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B3A5A1C-122D-46F6-83A5-567F13E42FAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5E1C38B-8002-425D-9CF9-D5930558156C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5E1C38B-8002-425D-9CF9-D5930558156C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5E1C38B-8002-425D-9CF9-D5930558156C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5E1C38B-8002-425D-9CF9-D5930558156C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7249CF-1CD6-4856-B502-158EA6CBE1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7249CF-1CD6-4856-B502-158EA6CBE1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7249CF-1CD6-4856-B502-158EA6CBE1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7249CF-1CD6-4856-B502-158EA6CBE1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A03C7E-5EB6-4ED0-B45B-F8D775580B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A03C7E-5EB6-4ED0-B45B-F8D775580B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A03C7E-5EB6-4ED0-B45B-F8D775580B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A03C7E-5EB6-4ED0-B45B-F8D775580B9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
