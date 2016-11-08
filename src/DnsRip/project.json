@@ -1,0 +1,38 @@
+﻿{
+  "version": "2.0.0-*",
+  "title": "DnsRip",
+  "description": "A .Net component for easily doing DNS lookups",
+  "copyright": "Copyright © Ed Caicedo 2016",
+  "authors": [ "Ed Caicedo" ],
+  "projectUrl": "https://github.com/ed-caicedo/DnsRip",
+
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ed-caicedo/DnsRip"
+    },
+    "iconUrl": "https://raw.githubusercontent.com/ed-caicedo/DnsRip/master/nuget/256.png",
+    "tags": [
+      "dns",
+      "lookup",
+      "dig"
+    ]
+  },
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+
+  },
+
+  "frameworks": {
+    "netstandard1.3": {
+      "dependencies": {
+        "System.Net.NameResolution": "4.0.0",
+        "System.Net.Primitives": "4.0.11",
+        "System.Net.Sockets": "4.1.0",
+        "System.Threading.Tasks": "4.0.11"
+      },
+      "imports": "dnxcore50"
+    },
+    "net45": {}
+  }
+}
